@@ -59,7 +59,7 @@ find . -name "*.class" -delete
 </executions>"
 
 # Fix jar name
-%mvn_alias :sdp-api "org.opentelecoms.sip:%{name}"
+%mvn_alias :sip-api "org.opentelecoms.sip:%{name}"
 
 %build
 %mvn_build
