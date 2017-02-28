@@ -1,3 +1,5 @@
+%{?_javapackages_macros:%_javapackages_macros}
+
 Summary:	SIP API for Java
 Name:		java-sip-api
 Version:	1.2
@@ -10,9 +12,6 @@ BuildArch:	noarch
 
 BuildRequires:	maven-local
 BuildRequires:	mvn(org.apache.felix:maven-bundle-plugin)
-
-Requires:	java-headless
-Requires:	javapackages-tools
 
 %description
 SIP API for Java.
